@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Web App - Developed by Khayam Hawari</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <div class="search">
+          <input type="text" placeholder="Search City Name.." spellcheck="false" autocomplete="off" class="search-input">
+          <button class="search-btn"><img src="Assets/search.png" alt="search icon"></button>
+        </div>
+        <div class="error">
+          <p>Invalid City Name!</p>
+        </div>
+        <div class="weather">
+          <img src="Assets/rain.png" class="main-image">
+          <h1 class="temp">22°c</h1>
+          <h2 class="city">Ranchi</h2>
+        
+        <div class="feeling">
+          <h4 class="real-feel">Real Feel</h4>
+          <h4 class="real-feel-value">29°c</h4>
+        </div>
+        <div class="details">
+          <div class="col">
+            <img src="Assets/humidity.png" alt="humidity image" class="humidity-image">
+            <div>
+              <p class="humidity">50%</p>
+              <p>Humidity</p>
+            </div>
+          </div>
+          <div class="col">
+            <img src="Assets/wind.png" alt="wind image" class="wind-image">
+            <div>
+              <p class="wind">20 km/h</p>
+              <p>Wind Speed</p>
+            </div>
+          </div>
+          
+        </div>
+        <div class="details details-2">
+        <div class="col col-2">
+          <img src="Assets/sunrise.png" alt="wind image" class="wind-image">
+          <div class="show-details">
+            
+            
+          </div>
+        </div>
+        <div class="col col-2">
+          <img src="Assets/sunset.png" alt="wind image" class="wind-image">
+          <div class="show-details-2">
+          
+          </div>
+        </div>
+      </div>
+      <div class="last-note">
+        <p id="note-para" class="note-para">Sunrise & Sunset time showing according to IST!</p>
+      </div>
+    </div>
+    </div>
+
+    <!-- <script src="" integrity="sha512-hUhvpC5f8cgc04OZb55j0KNGh4eh7dLxd/dPSJ5VyzqDWxsayYbojWyl5Tkcgrmb/RVKCRJI1jNlRbVP4WWC4w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
