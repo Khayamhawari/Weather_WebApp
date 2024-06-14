@@ -6,7 +6,7 @@
 - JavaScript
 
 ## API Used
-- Open Weather Map
+- Open Weather Map API
 
 ## Custom Font 
 - https://fonts.google.com/specimen/Poppins?query=popp
